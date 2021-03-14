@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://use.fontawesome.com/42c4fb2c82.js"></script>
+    <link rel="stylesheet" href="./src/style.css">
+    <title>POE ExRate</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="container">
+            <div class="title">
+                <select id="pre_currencies">
+                    <option value="崇高石">崇高石</option>
+                    <option value="混沌石">混沌石</option>
+                    <option value="點金石">點金石</option>
+                </select>
+                <div>:</div>
+                <select id="nex_currencies">
+                    <option value="chaos">混沌石</option>
+                    <option value="alch">點金石</option>
+                    <option value="alt">改造石</option>
+                </select>
+                <div></div>
+                <button class="searchBtn">搜尋</button>
+            </div>
+            <div class="content">
+                <a class="store close" href="#" target="_blank" onclick="">官方賣場</a>
+                <div class="items">
+                    <!-- <div class="item">
+                        <p>報價：</p>
+                        <div class="price"></div>
+                        <img src="./images/chaos.png">
+                        <a href="#"><i class="fa fa-comment"></i></a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/main.js"></script>
+</body>
+
+</html>
